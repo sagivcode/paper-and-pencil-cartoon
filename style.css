@@ -3,8 +3,8 @@
     --paper: #ffffff;
     --eraser: #f82873;    
     --metal: #d7ddf0;
-    --pencil: #ffbe06;
-    --pencil-end: #ffdc9d;
+    --wood: #ffbe06;
+    --wood-end: #ffdc9d;
     --outline: #3b0176;
     --shadow: #d8cce4;
   }
@@ -62,25 +62,30 @@
     border-color: transparent var(--outline) var(--outline) var(--outline);
     border-radius: 0 0 12px 12px;
     display: grid;
-    grid-template-columns: 15% 1.5% 25% 1.5% 57%;
+    /* grid-template-rows: 15% 1.5% 25% 1.5% 57%; */
+    grid-template-rows: 57% 1.5% 25% 1.5% 15%;
   }
 
   .eraser{
-
+    background: var(--eraser);
+    border-radius: 0 0 8.5px 8.5px;
   }
 
   .gap-a{
+    background: var(--outline);
 
   }
 
   .metal{
+    background: var(--metal);
 
   }
 
   .gap-b{
+    background: var(--outline);
 
 }
 
 .wood{
-
+    background: var(--wood);
   }
