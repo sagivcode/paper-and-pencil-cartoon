@@ -1,0 +1,42 @@
+:root{
+    --background: #e8ecef;
+    --paper: #ffffff;
+    --eraser: #f82873;    
+    --metal: #d7ddf0;
+    --pencil: #ffbe06;
+    --pencil-end: #ffdc9d;
+    --outline: #3b0176;
+    --shadow: #d8cce4;
+  }
+    
+   *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+    .background{
+      width: 500px;
+      height: 500px;
+      background: var(--background);
+      left: 0;
+      right: 0;
+      top: 100px;
+      margin: auto;
+      position: relative;
+    }
+  
+  .card{
+    width: calc(500px*0.33);
+    height: calc(500px*0.5);
+    background: var(--paper);
+    border: solid 5px var(--outline);
+    border-radius: 20px;
+    outline: ;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+  }
