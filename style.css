@@ -16,12 +16,12 @@
   }
   
     .background{
-      width: 800px;
-      height: 800px;
+      width: 100vw;
+      height: 100vh;
       background: var(--background);
       left: 0;
       right: 0;
-      top: 100px;
+      top: 0;
       margin: auto;
       position: relative;
     }
@@ -32,7 +32,9 @@
     background: var(--paper);
     border: solid 3.5px var(--outline);
     border-radius: 10px;
-    outline: ;
+    outline: solid 6px rgba(45,1,90,0.2);
+    /* outline-offset: -8px; */
+    box-shadow: inset -3.5px -3.5px 0 rgba(45,1,90,0.2);
     position: absolute;
     left: 0;
     right: 0;
