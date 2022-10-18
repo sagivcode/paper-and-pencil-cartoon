@@ -16,8 +16,8 @@
   }
   
     .background{
-      width: 500px;
-      height: 500px;
+      width: 800px;
+      height: 800px;
       background: var(--background);
       left: 0;
       right: 0;
@@ -27,11 +27,11 @@
     }
   
   .card{
-    width: calc(500px*0.33);
-    height: calc(500px*0.5);
+    width: 125px;
+    height: 175px;
     background: var(--paper);
-    border: solid 5px var(--outline);
-    border-radius: 20px;
+    border: solid 3.5px var(--outline);
+    border-radius: 10px;
     outline: ;
     position: absolute;
     left: 0;
