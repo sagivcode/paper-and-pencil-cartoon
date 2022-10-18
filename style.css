@@ -32,9 +32,14 @@
     background: var(--paper);
     border: solid 3.5px var(--outline);
     border-radius: 10px;
-    outline: solid 6px rgba(45,1,90,0.2);
+   
+    /* outline: solid 6px rgba(45,1,90,0.2); */
     /* outline-offset: -8px; */
     box-shadow: inset -3.5px -3.5px 0 rgba(45,1,90,0.2);
+    /* 
+    might need to create another element just for the shadow 
+    */
+
     position: absolute;
     left: 0;
     right: 0;
@@ -42,3 +47,21 @@
     bottom: 0;
     margin: auto;
   }
+
+  .pencil{
+    width: 40px;
+    height: 140px;
+    /* background: var(--pencil); */
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 10px;
+    margin: auto;
+
+    border: solid 3.5px;
+    border-color: transparent var(--outline) var(--outline) var(--outline);
+    border-radius: 0 0 12px 12px;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+  }
+
