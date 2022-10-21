@@ -7,7 +7,7 @@
     --wood-end: #ffdc9d;
     --outline: #3b0176;
     --shadow: rgba(45,1,90,0.2);
-    --black: rgb(255,255,255);
+    --highlight: rgba(255, 255, 255, 0.5);
   
   
   }
@@ -216,6 +216,7 @@
     transform: rotate(65deg);
     width: 50px;
     height: 200px;
+    z-index: 3;
     /* border: solid 1px; */  
 }
 
@@ -225,16 +226,67 @@
 /* ---------------------------------------- */
 
 .pencil-handle-shadow{
-    width: 18px;
-    height: 140px;
+    width: 10px;
+    height: 135px;
     position: absolute;
-    left: 0px;
-    right: 170px;
-    top: 352px;
+    left: 85px;
+    right: 264px;
+    top: 350px;
     margin: auto;
     background: var(--shadow);
     z-index: 2;
     transform-origin: center center;
     transform: rotate(65deg);
     border-radius: 0 0 15px 0px;
-    /* border: red solid 1px */
+    z-index: 4;
+}
+
+.pencil-end-shadow{
+    width: 10px;
+    height: 40px;
+    position: absolute;
+    left: 0px;
+    right: 33px;
+    top: 358px;
+    margin: auto;
+    background: var(--shadow);
+    z-index: 2;
+    transform-origin: center center;
+    transform: rotate(45deg);
+    border-radius: 10px 13px 10px 10px;
+    z-index: 4;
+}
+
+.pencil-handle-highlight{
+    width: 3px;
+    height: 135px;
+    position: absolute;
+    left: 9px;
+    right: 210px;
+    top: 0px;
+    bottom: 9px;
+    margin: auto;
+    background: var(--highlight);
+    z-index: 2;
+    transform-origin: center center;
+    transform: rotate(65deg);
+    border-radius: 0 0 0px 3px;
+    z-index: 4;
+}
+
+.pencil-end-highlight{
+    width: 3px;
+    height: 32px;
+    position: absolute;
+    left: 0px;
+    right: 45px;
+    top: 0px;
+    bottom: 69.6px;
+    margin: auto;
+    background: var(--highlight);
+    z-index: 2;
+    transform-origin: center center;
+    transform: rotate(88deg);
+    border-radius: 0px 0px 0px 0px;
+    z-index: 4;
+}
