@@ -67,6 +67,8 @@
     bottom: 0;
     margin: auto;
     position: absolute;
+    width: 140px;
+    height: 200px;
 }
 
 .card-front-2{
@@ -106,6 +108,8 @@
     bottom: 0;
     margin: auto;
     position: absolute;
+    width: 140px;
+    height: 200px;
 }
 
   .pencil-handle{
@@ -195,13 +199,16 @@
 
 .pencil-all{
   position: absolute;
-    left: -500px;
+    left: -200px;
     right: 0;
-    top: 115px;
+    top: 50px;
     bottom: 0;
     margin: auto;
     z-index: 1;
-    transform: rotate(70deg);
+    transform: rotate(65deg);
+    width: 50px;
+    height: 200px;
+    
   
 }
     /* ---------------------------------------- */
