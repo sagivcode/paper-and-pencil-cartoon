@@ -225,97 +225,16 @@
 /* ---------------------------------------- */
 
 .pencil-handle-shadow{
-    width: 40px;
+    width: 18px;
     height: 140px;
-    position: relative;
-    left: 0;
-    right: 0;
-    top: 50px;
-    margin: auto;
-    border: solid 3.5px var(--shadow);
-    border-color: transparent var(--shadow) var(--shadow) var(--shadow);
-    border-radius: 0 0 12px 12px;
-    display: grid;
-    grid-template-rows: 75% 2.5% 6% 2.5% 14%;
-  }
-
-  .eraser-shadow{
-    background: var(--shadow);
-    border-radius: 0 0 7px 7px;
-  }
-
-  .gap-a-shadow{
-    background: var(--shadow);
-  }
-
-  .metal-shadow{
-    background: var(--shadow);
-  }
-
-  .gap-b-shadow{
-    background: var(--shadow);
-}
-
-.wood-shadow{
-    background: var(--shadow);
-  }
-
-/* ----------  Pencil End Shadow ---------- */
-
-  .pencil-end-shadow {
     position: absolute;
-    width: 0; 
-    height: 0px; 
-    left: 0;
-    right: 0;
-    top: 14px;
+    left: 0px;
+    right: 170px;
+    top: 352px;
     margin: auto;
-    border-left: 17px solid transparent;
-    border-right: 17px solid transparent;
-    border-bottom: 40px solid var(--shadow) ;
-  }
-
-.border-left-shadow{
-  width: 3.5px;
-  height: 47px;
-  background: var(--shadow);
-  transform: rotate(23deg);
-  margin-left: -11.3px;
-  margin-top: -7px;
-  border-radius: 2px 2px 0 3px;
-}
-
-.border-right-shadow{
-  width: 3.5px;
-  height: 47px;
-  background: var(--shadow);
-  transform: rotate(-23deg);
-  margin-left: 7.5px;
-  margin-top: -47px;
-  border-radius: 2px 2px 3px 0;
-}
-
-  .pencil-tip-shadow{
-    position: absolute;
-    /* background: var(--shadow); */
-    width: 10px;
-    height: 10px;
-    border-radius: 5px;
-    margin-left: -5.3px;
-    margin-top: -1px;
-  }
-
-.pencil-all-shadow{
-  position: absolute;
-    left: 12px;
-    right: 155px;
-    top: 12px;
-    bottom: 0px;
-    margin: auto;
-    z-index: 1;
-    transform: rotate(65deg);
-    width: 50px;
-    height: 200px;
+    background: var(--shadow);
     z-index: 2;
-    /* border: solid 1px;   */
-}
+    transform-origin: center center;
+    transform: rotate(65deg);
+    border-radius: 0 0 15px 0px;
+    /* border: red solid 1px */
