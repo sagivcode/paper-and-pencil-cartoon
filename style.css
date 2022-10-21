@@ -201,8 +201,8 @@
     width: 10px;
     height: 10px;
     border-radius: 5px;
-    margin-left: -5.3px;
-    margin-top: -1px;
+    margin-left: -5.4px;
+    margin-top: -2px;
   }
 
 .pencil-all{
@@ -259,12 +259,12 @@
 
 .pencil-handle-highlight{
     width: 3px;
-    height: 135px;
+    height: 132px;
     position: absolute;
-    left: 9px;
-    right: 210px;
-    top: 0px;
-    bottom: 9px;
+    left: 4px;
+    right: 201px;
+    top: -1px;
+    bottom: 9.5px;
     margin: auto;
     background: var(--highlight);
     z-index: 2;
